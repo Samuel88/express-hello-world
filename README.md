@@ -47,3 +47,8 @@ Se invece si vuole clonare il repository
 ```
 heroku git:clone -a NOME_APP_HEROKU
 ```
+
+Per testare la app in locale
+```
+heroku local
+```
