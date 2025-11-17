@@ -32,3 +32,18 @@ Per cambiare porta, crea un file `.env`:
 ```
 PORT=8080
 ```
+
+## Associazione con Heroku
+Per associare questo repository a un app Heroku
+```
+heroku git:remote -a NOME_APP_HEROKU
+```
+Per pushare successivamente l'app
+```
+git push heroku main
+```
+
+Se invece si vuole clonare il repository
+```
+heroku git:clone -a NOME_APP_HEROKU
+```
